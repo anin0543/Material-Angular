@@ -8,7 +8,8 @@ import {
   MatButtonToggleModule,
   MatProgressSpinnerModule, 
    MatTabsModule,
-   MatTooltipModule
+   MatTooltipModule,
+   MatGridListModule
 
 
   
@@ -23,7 +24,8 @@ import {
     MatButtonToggleModule,
     MatProgressSpinnerModule,
       MatTabsModule,
-      MatTooltipModule
+      MatTooltipModule,
+      MatGridListModule
 
 
   ],
@@ -35,7 +37,8 @@ import {
     MatButtonToggleModule,
     MatProgressSpinnerModule,
     MatTabsModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MatGridListModule
   ]
 })
 export class MaterialModule {}
