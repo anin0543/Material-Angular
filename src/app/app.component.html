@@ -1,3 +1,21 @@
-<h1>
-  {{title}}
-</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+  <h1>{{title}}</h1> 
+  <ul>
+    <li>
+      <button routerLink ="product" mat-raised-button color="primary">Product</button>
+      <button routerLink ="advertisement" mat-raised-button color="warn" >Advertisement</button>    
+        </li>
+  </ul>
+  <!-- <mat-tab-group mat-align-tabs="start">
+    <a mat-tab-link [routerLink]="product">Add Identity</a>
+    <mat-tab label="Advertisement"></mat-tab>
+  </mat-tab-group> -->
+  <!-- <mat-tab label="Product"><a routerLink="product"></mat-tab> -->
+  
+  <router-outlet></router-outlet>
